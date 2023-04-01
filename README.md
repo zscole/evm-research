@@ -1,6 +1,6 @@
 # OVERVIEW
 
-What is the EVM?
+# What is the EVM?  
 The Ethereum Virtual Machine (EVM) is a runtime environment for executing smart contracts on the Ethereum blockchain.  
 It works by interpreting bytecode instructions, which are generated from high-level programming languages like Solidity, and executing them on a network of computers.  
 
@@ -19,6 +19,14 @@ State changes: As the smart contract is executed, it may modify the state of the
 Gas fees: Every transaction on the Ethereum network requires gas fees, which are paid in Ether and used to compensate the network nodes for executing the transaction and prevent spam or abuse.
   
 Overall, the EVM is a powerful tool for building decentralized applications on the blockchain, enabling developers to write complex smart contracts that can execute autonomously and securely on a global network of computers.
+
+# What does the PoC code do?  
+This code defines a function called executeTransaction that takes various inputs, including the sender's address, recipient's address, amount of value to transfer, and transaction data. It then creates a new transaction object using the types library, signs the transaction using the sender's private key, and encodes the signed transaction as a byte string using RLP encoding.  
+  
+Note that this is a very simplified example and does not include many of the complexities and nuances of the full Ethereum Virtual Machine. This is intended only as a starting point for exploring the EVM in Go.  
+
+
+
 
 
 
