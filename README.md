@@ -1,6 +1,6 @@
-#OVERVIEW
+# OVERVIEW
 
-#What is the EVM?
+What is the EVM?
 The Ethereum Virtual Machine (EVM) is a runtime environment for executing smart contracts on the Ethereum blockchain.  
 It works by interpreting bytecode instructions, which are generated from high-level programming languages like Solidity, and executing them on a network of computers.  
 
