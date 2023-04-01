@@ -1,0 +1,25 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Dependency directories
+/vendor/
+/go.sum
+/go.mod
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# Compiled object files
+*.o
+*.a
+*.out
+
+# Mac-specific files
+.DS_Store
+
+# Build output
+/build/
