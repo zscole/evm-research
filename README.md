@@ -21,7 +21,7 @@ Gas fees: Every transaction on the Ethereum network requires gas fees, which are
 Overall, the EVM is a powerful tool for building decentralized applications on the blockchain, enabling developers to write complex smart contracts that can execute autonomously and securely on a global network of computers.
 
 # What does the PoC code do?  
-This code defines a function called executeTransaction that takes various inputs, including the sender's address, recipient's address, amount of value to transfer, and transaction data. It then creates a new transaction object using the types library, signs the transaction using the sender's private key, and encodes the signed transaction as a byte string using RLP encoding.  
+This code defines a function called `executeTransaction` that takes various inputs, including the sender's address, recipient's address, amount of value to transfer, and transaction data. It then creates a new transaction object using the types library, signs the transaction using the sender's private key, and encodes the signed transaction as a byte string using RLP encoding.  
   
 Note that this is a very simplified example and does not include many of the complexities and nuances of the full Ethereum Virtual Machine. This is intended only as a starting point for exploring the EVM in Go.  
 
