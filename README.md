@@ -25,6 +25,23 @@ This code defines a function called `executeTransaction` that takes various inpu
   
 Note that this is a very simplified example and does not include many of the complexities and nuances of the full Ethereum Virtual Machine. This is intended only as a starting point for exploring the EVM in Go.  
 
+## What is RLP encoding? 
+Recursive Length Prefix (RLP) is a data encoding format used in Ethereum to serialize data for storage or transmission over the network. RLP is a self-describing encoding scheme that can be used to encode any arbitrarily nested array or string data structure, making it highly versatile and efficient.
+
+RLP works by recursively encoding data into a binary format that can be easily decoded later. The encoding process involves two steps:
+
+Encoding of individual data elements: Each individual data element is encoded in one of two ways, depending on its type. If the element is a string, it is encoded as a binary string with a length prefix. If the element is an array, each of its sub-elements is recursively encoded using the same process.
+
+Encoding of the entire data structure: Once all individual data elements have been encoded, they are concatenated together to form the final encoded data structure.
+
+The resulting binary representation of the data is highly efficient and can be easily decoded back into its original form by following the same recursive process in reverse.
+
+RLP encoding is widely used in Ethereum for encoding various types of data, including transactions, blocks, and smart contract data. Its versatility and efficiency make it a popular choice for data serialization in Ethereum and other blockchain-based systems.
+
+
+
+
+
 
 
 
