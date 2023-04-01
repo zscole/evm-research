@@ -1,4 +1,3 @@
-Copy code
 package main
 
 import (
